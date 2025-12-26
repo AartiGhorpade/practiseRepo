@@ -44,12 +44,30 @@
 // *
 
 
+// let rows = 4;
+
+// for (let i = 1; i <= rows; i++) {
+//     let prints = ""
+//     for (let j = rows; j >= i; j--) {
+//         prints += "* "
+//     }
+//     console.log(prints);
+// }
+
+//        *
+//      * *
+//    * * *
+//  * * * *
+
 let rows = 4;
 
 for (let i = 1; i <= rows; i++) {
     let prints = ""
     for (let j = rows; j >= i; j--) {
-        prints += "* "
+       prints +="  "
+    }
+    for(let k =1;k<=i;k++){
+        prints+="* "
     }
     console.log(prints);
 }
