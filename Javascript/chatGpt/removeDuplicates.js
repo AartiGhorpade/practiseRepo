@@ -14,13 +14,3 @@
 // console.log(removeDup([55, 2, 96, 55, 85, 96, 2]));
 
 
-function checkArm(num) {
-   let count = 0;
-   while (num > 0) {
-      count += 1;
-      num = Math.floor(num / 10)
-   }
-
-
-}
-console.log(checkArm(153));
