@@ -9,8 +9,12 @@ function watercontainer(nums) {
     if (maxWater < findMaxWater) {
       maxWater = findMaxWater;
     }
-    left++;
-    right--;
+
+    if (nums[left] < nums[right]) {
+      left++;
+    } else {
+      right--;
+    }
   }
 
   return maxWater;
