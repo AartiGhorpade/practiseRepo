@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(2, 2, 27);
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px 40px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.deleteBtn {
+  padding: 4px 20px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.updateBtn {
+  padding: 4px 20px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(69, 136, 229);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
